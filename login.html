@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
   <body >
-    <form align="center" style="padding:12.5%;">
-      Username: <input type="text" name="username" required><br>
-      Password: <input type="password" name="password" required><br>
-      <input type="submit">
+
+    <style>
+    body
+    {
+    background-color:#d0e4fe;
+    }
+    h1{
+    text-align:center;
+    padding:1%
+    }
+    
+    #form{
+    text-align:center;
+    border:2px solid #a1a1a1;
+    padding:12.5%;
+    background:#dddddd;
+    width:60%;
+    border-radius:20px;
+    margin:0 auto;
+    box-shadow: 8px 8px 5px #888888;
+    }
+    </style>
+
+    <form id="form" align="center">
+      <section>
+        <h1>Welcome to Digital Classroom</h1>
+      </section>
+      <section>     
+        Username: <input type="text" name="username" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="submit">
+      </section>
     </form>
   </body>  
 </html>
